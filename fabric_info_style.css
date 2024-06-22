@@ -139,9 +139,6 @@ input[type="checkbox"] {
 
 @media only screen and (max-width: 767px) {
   html {
-    font-size: 42%;
-  }
-  .fabric-info-1 {
     font-size: 45%;
   }
 }
