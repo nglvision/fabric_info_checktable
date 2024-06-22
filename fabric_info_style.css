@@ -7,24 +7,28 @@
   --grey-background: rgb(196, 196, 196);
   --light-grey: rgb(242, 242, 242);
   --light-grey2: rgb(233, 233, 233);
-  --highlight-color: #cd1103;
 }
 html {
   font-size: 100%;
 }
 body {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  padding: 0.5rem auto;
+  padding: 2rem 0;
   font-family: "Noto Sans", "Noto Sans KR", Arial, Helvetica, sans-serif;
   font-weight: 400;
   color: var(--charcoal);
 }
-
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 ul,
 li {
   list-style: none;
@@ -54,13 +58,8 @@ p {
 }
 /* container */
 .container {
-  max-width: 1200px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-  padding: 1rem 0;
+  max-width: 1000px;
+  margin: 1rem auto;
 }
 
 /* .events */
@@ -80,7 +79,7 @@ p {
 
 /* fabric-info */
 .parameters {
-  margin: 1rem 0;
+  margin: 2rem 0;
   padding: 1rem;
   border: 3px dashed var(--grey-background);
 }
@@ -111,7 +110,7 @@ input[type="checkbox"] {
   accent-color: var(--charcoal);
   height: 1.2rem;
   align-self: center;
-  margin-left: 3.1rem;
+  margin-left: 2.8rem;
 }
 
 @media only screen and (max-width: 767px) {
