@@ -109,9 +109,6 @@ input[type="checkbox"] {
   margin-left: 2.8rem;
 }
 
-input[type="checkbox"]:hover {
-  accent-color: red;
-}
 .fabric-info-1 input[type="checkbox"] {
   appearance: none;
   -webkit-appearance: none;
