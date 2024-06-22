@@ -19,7 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 1rem auto;
+  padding: 0.5rem auto;
   font-family: "Noto Sans", "Noto Sans KR", Arial, Helvetica, sans-serif;
   font-weight: 400;
   color: var(--charcoal);
